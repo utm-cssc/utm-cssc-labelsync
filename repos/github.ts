@@ -131,7 +131,7 @@ export const github = repo({
     }),
     label({
       name: "Role: Maintainer",
-      color: "#795548",
+      color: "#f06292",
       description: "Manages the repository by organizing issues, milestones, projects and new contributors.",
     }),
     label({
