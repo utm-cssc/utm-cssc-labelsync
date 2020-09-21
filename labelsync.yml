@@ -1,1 +1,196 @@
-repos: {}
+repos:
+  website:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      'Type: Maintenance':
+        color: '#0d47a1'
+        description: >-
+          An issue that make things clearer or removes ambiguity without
+          changing base functionality.
+        alias: []
+        siblings: []
+      'Type: Enhancement':
+        color: '#0d47a1'
+        description: An issue that adds new feature or technology.
+        alias: []
+        siblings: []
+      'Type: Bug':
+        color: '#e11d21'
+        description: An issue that causes problems for users and developers.
+        alias: []
+        siblings: []
+      'Status: Revisit':
+        color: '#7d64c4'
+        description: This issue will be revisited in the future!
+        alias: []
+        siblings: []
+      'Status: In Discussion':
+        color: '#455a64'
+        description: >-
+          This issue has an ongoing discussion that hasn't reached a consensus.
+          Please contribute!
+        alias: []
+        siblings: []
+      'Status: Blocked':
+        color: '#795548'
+        description: This issue is blocked by another unresolved issue.
+        alias: []
+        siblings: []
+      'Role: Maintainer':
+        color: '#795548'
+        description: >-
+          Manages the repository by organizing issues, milestones, projects and
+          new contributors.
+        alias: []
+        siblings: []
+      'Role: Operations':
+        color: '#795548'
+        description: Manages the operations of the organizations!
+        alias: []
+        siblings: []
+      'Role: UX Designer':
+        color: '#70dd02'
+        description: >-
+          Enhances user experience by improving the usability, ease of use and
+          pleasure of the application.
+        alias: []
+        siblings: []
+      'Role: UI Designer':
+        color: '#fbca04'
+        description: >-
+          Designs creative interfaces that make a user`s interaction as simple
+          as possible.
+        alias: []
+        siblings: []
+      'Role: Software Engineer':
+        color: '#35bf4c'
+        description: >-
+          Uses technology to design, develop, test, and maintain creative
+          software solutions.
+        alias: []
+        siblings: []
+      'Role: Product Owner':
+        color: '#006b75'
+        description: >-
+          Uses PM tools to execute the vision they co-create with the Designers,
+          Engineers, and Users.
+        alias: []
+        siblings: []
+      'Domain: Tooling':
+        color: '#006b75'
+        description: 'This issue focuses on the build system, linting, test tooling, etc.'
+        alias: []
+        siblings: []
+      'Domain: Testing':
+        color: '#f06292'
+        description: >-
+          This issue is about assuring the quality of the project through
+          testing.
+        alias: []
+        siblings: []
+      'Domain: Organization':
+        color: '#3d5afe'
+        description: >-
+          This issue pertains to the libraries and binaries that this project
+          depends on.
+        alias: []
+        siblings: []
+      'Domain: Finances':
+        color: '#0d47a1'
+        description: >-
+          This issue pertains to the libraries and binaries that this project
+          depends on.
+        alias: []
+        siblings: []
+      'Domain: Dependencies':
+        color: '#3d5afe'
+        description: >-
+          This issue pertains to the libraries and binaries that this project
+          depends on.
+        alias:
+          - dependencies
+        siblings: []
+      'Domain: Security':
+        color: '#3d5afe'
+        description: >-
+          This issue pertains to identifying vulnerabilities in and improving
+          the security of Grey Software.
+        alias: []
+        siblings: []
+      'Domain: Performance':
+        color: '#ff9800'
+        description: >-
+          This issue is about monitoring or improving the performance of Grey
+          Software.
+        alias: []
+        siblings: []
+      'Domain: Marketing':
+        color: '#7d64c4'
+        description: This issue pertains to increasing the awareness for this project.
+        alias: []
+        siblings: []
+      'Domain: Legal':
+        color: '#6447e5'
+        description: 'This issue deals with licensing, regulations, and other legal matters.'
+        alias: []
+        siblings: []
+      'Domain: Documentation':
+        color: '#514fe2'
+        description: >-
+          An issue that seeks clarification, and would be helpful to have
+          answered on the docs.
+        alias: []
+        siblings: []
+      'Domain: Config':
+        color: '#b56edd'
+        description: This issue is related to configuration changes.
+        alias: []
+        siblings: []
+      'Domain: Monetization':
+        color: '#fbca04'
+        description: >-
+          An issue that pertains to monetizing the project through mediums such
+          as ads or purchases.
+        alias: []
+        siblings: []
+      'Domain: User Experience':
+        color: '#03a9f4'
+        description: >-
+          This issue pertains to a developer's emotions and attitudes when
+          building Grey Software.
+        alias: []
+        siblings: []
+      'Domain: Dev Experience':
+        color: '#00bcd4'
+        description: >-
+          This issue pertains to a developer's emotions and attitudes when
+          building Grey Software.
+        alias: []
+        siblings: []
+      'Priority: Critical':
+        color: '#E11E20'
+        description: >-
+          This should be dealt with ASAP. Not fixing this issue would be a
+          serious error.
+        alias: []
+        siblings: []
+      'Priority: High':
+        color: '#bf360c'
+        description: >-
+          After critical issues are fixed, these should be dealt with before any
+          further issues.
+        alias: []
+        siblings: []
+      'Priority: Medium':
+        color: '#fbca04'
+        description: 'This issue is useful, and needs some attention.'
+        alias: []
+        siblings: []
+      'Priority: Low':
+        color: '#8bc34a'
+        description: >-
+          This issue can wait, and can probably be picked up by anyone looking
+          to contribute to the project.
+        alias: []
+        siblings: []
